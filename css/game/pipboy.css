@@ -1,0 +1,10 @@
+#pipboyInterface{
+    background-image: url('../../assets/img/pipboy/pboyscreen.png');
+    background-size: cover;
+  }
+#pipboyOpener{
+    background-image: url(../../assets/img/pipboy/opener.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

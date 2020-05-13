@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'pre-menu';
+  src: url('../assets/fonts/sharetechmono-regular-webfont.woff2') format('woff2'),
+       url('../assets/fonts/sharetechmono-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+*, *:hover, *:focus {
+  cursor: url('../assets/cursor/normal.cur'), default;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  background-color: black;
+}
+
+
+.PreMenuButton {
+    background-color: transparent;
+    border: none;
+    color: rgb(63, 151, 66);
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: 'pre-menu';
+  }
+
+  .PreMenuButton:hover {
+    background-color: rgb(25, 27, 25);
+  }
+
+  #MenuDiv, #IntroDiv{
+    z-index: -1;
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  #IntroDiv{
+    display: none;
+  }
+
+  #MenuVideo, #IntroVideo{
+    display: none;
+  }
+
+  .vidcontrols{
+    text-align: center;
+    margin-top: 25%;
+  }
+
+  .menuButtonsDiv{
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left: 11%;
+    display: none;
+  }
+
+  .menuButtons{
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: rgb(221, 221, 221);
+    text-shadow: 2px 0 0 rgb(0,0,0), 2px 2px 0 rgb(0,0,0), 0 2px 0 rgb(0,0,0), -2px 2px 0 rgb(0,0,0), -2px 0 0 rgb(0,0,0), -2px -2px 0 rgb(0,0,0), 0 -2px 0 rgb(0,0,0), 2px -2px 0 rgb(0,0,0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: 'pre-menu';
+  }
+  .menuButtons:hover{
+    color: rgb(63, 151, 66);
+  }
+
+  #StartGameSelector, #InfosSelector{
+    display: none;
+  }
+  .menuSelector{
+    color: rgb(63, 151, 66);
+    font-family: 'pre-menu';
+    font-size: 32px;
+  }

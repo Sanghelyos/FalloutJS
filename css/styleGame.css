@@ -1,0 +1,29 @@
+#globalWindow{
+  display: flex;
+  width: 100%;
+}
+#gameWindow{
+  background-color: red;
+  width: 96vw;
+  height: 100vh;
+}
+#pipboyWindow{
+  background-color: violet;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  right: 0px;
+}
+#pipboyOpener{
+  width: 4vw;
+  background-color: #A9765F;
+  height: 100vh;
+}
+#pipboyInterface{
+  width: 0vw;
+  height: 100vh;
+  background-color: green;
+}
+p{
+  text-align: center;
+}
