@@ -1,5 +1,5 @@
 #pipboyInterface{
-    background-image: url('../../assets/img/pipboy/pboyscreen.png');
+    background-image: url('');
     background-size: cover;
   }
 #pipboyOpener{
@@ -7,4 +7,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+#pipboyInterfaceContent{
+  visibility: hidden;
 }
