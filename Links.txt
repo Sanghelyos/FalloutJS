@@ -1,0 +1,2 @@
+dev: https://raw.githack.com/Sanghelyos/FalloutJS/master/index.html
+prod: https://rawcdn.githack.com/Sanghelyos/FalloutJS/925544407e1976b45c74c1ef03d1bd23d8ca1d02/index.html
