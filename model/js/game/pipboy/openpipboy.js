@@ -14,7 +14,7 @@ $('#pipboyOpener').click(function(){
     }
     else{
         pboyAccess.play();
-        $("#pipboyInterface").animate({width:'92.1vw'},200);
+        $("#pipboyInterface").animate({width:'92vw'},200);
         setTimeout(function(){
             $("#pipboyInterface").css({'background-image':'url("assets/img/pipboy/pboyscreen.png")', 
                                         'border-right':'4vw solid #A9765F'});
