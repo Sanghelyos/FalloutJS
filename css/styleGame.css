@@ -13,6 +13,7 @@
   display: flex;
   position: fixed;
   right: 0px;
+  z-index: 10;
 }
 #pipboyOpener{
   width: 4vw;

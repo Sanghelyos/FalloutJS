@@ -18,7 +18,7 @@ $('#StartGame').click(function() { //Nouvelle partie
   introVideo.play();
 });
 
-$('#IntriVideo').bind('ended', function(){ //action fin d'intro
+$('#IntroVideo').bind('ended', function(){ //action fin d'intro
   introVideo.pause();
   IntroVideo.currenTime=0;
   $('#IntroVideo').css("display" , "none");
