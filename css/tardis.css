@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'gallifreyan';
+    src: url('fonts/ws_simple_gallifreyan-webfont.woff2') format('woff2'),
+        url('fonts/ws_simple_gallifreyan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+   /* background-image: url('controlroom.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: black;
+}
+header{
+    text-align: center;
+}
+#langselect{
+    color: white;
+}
+#startengine{
+    display: none;
+}
+#monitor {
+    font-family: 'gallifreyan';
+    color: #9DBAEC;
+    height: 300px;
+    width: 400px;
+    border: 10px solid grey;
+    border-radius: 6px;
+    background-image: url('monitor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#monitor p{
+    position: relative;
+    left: 50px;
+    top: 100px;
+    text-align: center;
+}
+
+.flexmonitor {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flexbutton {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#vortexmonitor {
+
+    height: 300px;
+    width: 400px;
+    border: 10px solid grey;
+    border-radius: 6px;
+    background-image: url('vortexidleresize.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    border-radius: 4px;
+}
+
+#repair{
+    display:none;
+}
+.MeText{
+    color: white;
+    background-color: rgb(94, 93, 93);
+    border-radius: 8px;
+    padding: 6px;
+}
+.console{
+    height: 720px;
+    width: 960px;
+    background-image: url('console.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
