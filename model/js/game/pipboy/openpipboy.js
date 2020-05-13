@@ -4,7 +4,7 @@ $('#pipboyOpener').click(function(){
         pboyExit.play();
         pboyHum.pause();
         pboyHum.currentTime = 0;
-        $("#pipboyInterface").css('background-image','url("")');
+        $("#pipboyInterface").css({'background-image':'url("")', 'border-right':'none'});
         $("#pipboyInterfaceContent").css('visibility', 'hidden');
         $("#pipboyInterface").animate({width:'0vw'},200);
         //$('#pipboyInterface').css('width', '0vw');
@@ -15,7 +15,7 @@ $('#pipboyOpener').click(function(){
         pboyAccess.play();
         $("#pipboyInterface").animate({width:'70vw'},200);
         setTimeout(function(){
-            $("#pipboyInterface").css('background-image','url("assets/img/pipboy/pboyscreen.png")');
+            $("#pipboyInterface").css({'background-image':'url("assets/img/pipboy/pboyscreen.png")', 'border-right':'10px solid #A9765F'});
             $("#pipboyInterfaceContent").css('visibility', 'visible');
             pboyHum.play();
             pboyHum.loop = true;

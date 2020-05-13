@@ -21,9 +21,14 @@
 }
 #pipboyInterface{
   width: 0vw;
-  height: 100vh;
+  height: 97vh;
   background-color: black;
+  background-image: url('');
+  background-size: cover;
+  border-top: 10px solid #A9765F;
+  border-right: none;
+  border-bottom: 10px solid #A9765F;
 }
 p{
-  text-align: center;
+  text-align: end;
 }
