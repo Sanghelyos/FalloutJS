@@ -1,3 +1,31 @@
+@font-face {
+  font-family: 'robotoregular';
+  src: url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('../fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* latin-ext */
+/* @font-face {
+  font-family: 'Mr Dafoe';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mr Dafoe Regular'), local('MrDafoe-Regular'), url(https://fonts.gstatic.com/s/mrdafoe/v8/lJwE-pIzkS5NXuMMrFijibIyxw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+} */
+/* latin */
+/* @font-face {
+  font-family: 'Mr Dafoe';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Mr Dafoe Regular'), local('MrDafoe-Regular'), url(https://fonts.gstatic.com/s/mrdafoe/v8/lJwE-pIzkS5NXuMMrFitibI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+} */
+
+
+
 #globalWindow{
   display: flex;
   width: 100%;
@@ -8,7 +36,7 @@
   height: 100vh;
 }
 #pipboyWindow{
-  background-color: violet;
+  background-color: #A9765F;
   height: 100vh;
   display: flex;
   position: fixed;
@@ -21,15 +49,20 @@
   height: 100vh;
 }
 #pipboyInterface{
+  border-radius: 10px;
   width: 0vw;
   height: 97vh;
-  background-color: black;
-  background-image: url('');
-  background-size: cover;
-  background-position: center;
-  border-top: 10px solid #A9765F;
+  
+  background-image:radial-gradient(#111, #111);
+  box-shadow:0 0 5vmin 1vmin #000 inset;
+  background-size: 4px 4px;
+  margin-top: 1.7vh;
+  margin-bottom: 1.7vh;
+  margin-right: 0vw;
+  /* border-top: 1.7vh solid #A9765F;
   border-right: none;
-  border-bottom: 10px solid #A9765F;
+  border-bottom: 1.7vh solid #A9765F; */
+  background-size: 2px 2px;
 }
 p{
   text-align: end;
